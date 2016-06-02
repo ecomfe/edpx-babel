@@ -41,7 +41,7 @@ var BabelProcessor = require('edpx-babel/lib/BabelProcessor');
 // http://babeljs.io/docs/usage/options/
 exports.getProcessors = function () {
     
-    var html2jsProcessor = new processors.Html2JsCompiler({
+    var babelProcessor = new BabelProcessor({
         files: ['*.es'],
          compileOptions: {
              presets: ['babel-preset-browser']
