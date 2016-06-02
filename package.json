@@ -1,0 +1,25 @@
+{
+  "name": "edpx-babel",
+  "version": "0.1.5",
+  "description": "edp plugin of babel",
+  "main": "index.js",
+  "bin": {},
+  "author": {
+    "name": "liuxuanzy",
+    "email": "liuxuanzy@qq.com"
+  },
+  "scripts": {
+    "test": "echo 'no test code'"
+  },
+  "dependencies": {
+    "babel-core": "^6.8.0",
+    "edp-build": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ecomfe/edpx-babel.git"
+  },
+  "bugs": "http://github.com/ecomfe/edpx-babel/issues",
+  "readme": "Readme.md",
+  "license": "MIT"
+}
